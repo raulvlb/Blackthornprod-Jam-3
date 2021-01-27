@@ -29,7 +29,7 @@ public class PlayerController : MonoBehaviour
     private bool canMove;
     private bool canFlip;
     private bool isTouchingLedge;
-    private bool canClimbLedge = false;
+    public static bool canClimbLedge = false;
     private bool ledgeDetected;
     private bool isDashing;
 
